@@ -1,6 +1,6 @@
 # Singtel Company Test Assessment - Algorithm Implementation
 
-## Quick Descriptions
+## Quick Description
 This is my Test Assessment for singtel company,
 with the given questions and answers provided below.
 
