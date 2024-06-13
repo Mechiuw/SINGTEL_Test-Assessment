@@ -5,10 +5,10 @@ function three(n,times,cards){
             const bottomCards = cards.splice(-n);
             cards = [...bottomCards, ...cards];
         }
-        console.log(`kartu tumpukan taratas dari ${n} kartu, ${times} kali : ${cards[0]}`);
+        console.log(`the top card from ${n} pulled cards for ${times} times is ${cards[0]}`);
     } catch(err){
         console.log(err);
     }
 }
-three(5,45,cards); //5 pengambilan kartu , 45 kali 
-three(7,50,cards); //7 pengambilan kartu, 50 kali 
+three(5,45,cards); //5 card pulled , 45 times 
+three(7,50,cards); //7 card pulled, 50 times 
